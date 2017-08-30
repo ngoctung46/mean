@@ -1,0 +1,19 @@
+{
+  "name": "demo-mean",
+  "version": "1.0.0",
+  "description": "demo application for mean stack ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+
+  "dependencies": {
+    "express": "~4.15.3",
+    "mongoose": "~4.11.0",
+    "cors": "~2.8.3",
+    "body-parser": "~1.17.2"
+  },
+  
+  "author": "",
+  "license": "ISC"
+}
