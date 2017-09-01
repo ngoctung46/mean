@@ -13,7 +13,7 @@ router.get('/',(req, res) => {
     })
 });
 
-router.get('/:categoryId',(req, res) => {
+router.get('/category/:categoryId',(req, res) => {
     let categoryId = req.params.categoryId;
     product.getByCategoryId(categoryId,(err, items) => {
         if(err) {

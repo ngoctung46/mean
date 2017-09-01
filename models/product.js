@@ -26,7 +26,8 @@ module.exports.getAll = (callback) => {
 }
 
 module.exports.getByCategoryId = (id, callback) => {
-    Product.find( x => x.categoryId === id, callback);
+    let query = { categoryId : id };
+    Product.find(query, callback);
 }
 
 module.exports.add = (newProduct, callback) => {
