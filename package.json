@@ -1,24 +1,28 @@
 {
-  "name": "demo-mean",
+  "name": "mean",
   "version": "1.0.0",
-  "description": "demo application for mean stack ",
+  "description": "",
   "main": "app.js",
-  "scripts": {
-    "start": "node app",
-    "build": "cd ./angular-src && ng build",
-    "test": "cd ./angular-src && ng test",
-    "lint": "cd ./angular-src && ng lint",
-    "e2e": "cd ./angular-src && ng e2e",
-    "postinstall": "cd ./angular-src && ng build"
-  },
-
   "dependencies": {
-    "express": "~4.15.3",
-    "mongoose": "~4.11.0",
-    "cors": "~2.8.3",
-    "body-parser": "~1.17.2"
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "path": "^0.12.7"
   },
-  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoctung46/mean.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoctung46/mean/issues"
+  },
+  "homepage": "https://github.com/ngoctung46/mean#readme"
 }
