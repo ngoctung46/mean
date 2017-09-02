@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "node app",
     "ng-version":"cd angular-src",
-    "postinstall": "angular-src/ng build"
+    "postinstall": "cd angular-src && ng build"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
