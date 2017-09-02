@@ -4,10 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "ng": "ng",
-    "start": "node app",
-    "ng-version":"cd angular-src",
-    "postinstall": "cd angular-src && ng build"
+    "start": "node app"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
